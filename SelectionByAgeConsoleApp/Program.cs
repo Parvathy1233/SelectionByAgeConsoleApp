@@ -12,7 +12,6 @@ namespace SelectionByAgeConsoleApp
         {
             while (true)
             {
-
                 Console.Write("Enter Your DOB (MM/DD/YYYY):");
                 DateTime dob = DateTime.Parse(Console.ReadLine());
                 Console.Write("Enter Age Limit:");
